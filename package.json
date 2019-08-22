@@ -1,0 +1,75 @@
+{
+  "name": "test.lobaton",
+  "description": "Prueba de lobaton",
+  "author": "José Miguel Sánchez Alés <sio2sio2+github@gmail.com>",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --env.output=bundle --progress",
+    "debug": "webpack-dev-server --env.output=debug --progress"
+  },
+  "license": "MIT",
+  "keywords": [
+    "test", "lobaton"
+  ],
+  "browserslist": {
+    "production": [
+      "cover 95% in ES"
+    ],
+    "oneplus": [
+      "> 1% in ES"
+    ],
+    "ie10": [
+      "> .25% in ES",
+      "ie >= 10"
+    ],
+    "relax": [
+      "cover 80% in ES"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sio2sio2/test.lobaton.git"
+  },
+  "homepage": "https://github.com/sio2sio2/test.lobaton#readme",
+  "bugs": {
+    "url": "https://github.com/sio2sio2/test.lobaton/issues"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@turf/boolean-point-in-polygon": "^6.0.1",
+    "@turf/difference": "^6.0.2",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^4.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "regenerator-runtime": "^0.13.3",
+    "sass-loader": "^7.2.0",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "@lobaton/core": "git+https://github.com/sio2sio2/lobaton-core.git",
+    "@lobaton/search": "git+https://github.com/sio2sio2/lobaton-search.git",
+    "core-js": "^3.2.0",
+    "fuse.js": "^3.4.5",
+    "leaflet": "^1.5.1",
+    "leaflet-contextmenu": "^1.4.0",
+    "leaflet-defaulticon-compatibility": "^0.1.1",
+    "leaflet-search": "^2.9.8",
+    "leaflet.markercluster": "^1.4.1",
+    "leaflet.mutatismutandis": "^0.1.7"
+  }
+}
