@@ -35,16 +35,11 @@ function confBabel(env) {
 // Configuración para desarrollo
 function confDev(filename) {
    return {
-      devtool: false,
+      devtool: "source-map",
       devServer: {
          contentBase: false,
          open: "chromium",
       },
-      plugins: [
-         new webpack.SourceMapDevToolPlugin({
-            filename: `${filename}.map`
-         })
-      ]
    }
 }
 
@@ -82,7 +77,7 @@ module.exports = env => {
             },
             {
                test: /\.(css|sass)$/i,
-               use: [MiniCssExtractPlugin.loader,
+               use: [ MiniCssExtractPlugin.loader,
                      `css-loader?sourceMap=${mode === "development"}`,
                      { 
                         loader: `postcss-loader?sourceMap=${mode === "development"}`,

@@ -5,6 +5,11 @@ import * as Lo from "@lobaton/core";
 import "@lobaton/search/dist/search.bundle.css";
 import "@lobaton/search";
 
+// Bootstrap
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap4c-custom-switch/dist/css/component-custom-switch.css";
+import "bootstrap.native";
+
 // Estilo de la página
 import "./index.sass";
 
