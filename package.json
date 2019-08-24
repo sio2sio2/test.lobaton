@@ -65,7 +65,7 @@
     "@lobaton/core": "git+https://github.com/sio2sio2/lobaton-core.git",
     "@lobaton/search": "git+https://github.com/sio2sio2/lobaton-search.git",
     "bootstrap": "^4.3.1",
-    "bootstrap.native": "^2.0.26",
+    "bootstrap.native": "^2.0.27",
     "bootstrap4c-custom-switch": "^1.1.2",
     "core-js": "^3.2.0"
   }
