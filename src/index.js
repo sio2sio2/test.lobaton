@@ -1,13 +1,9 @@
-import "@lobaton/core/dist/core.bundle.css";
 import * as Lo from "@lobaton/core";
 
 // Cajetín de búsqueda
-import "@lobaton/search/dist/search.bundle.css";
 import "@lobaton/search";
 
 // Bootstrap
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap4c-custom-switch/dist/css/component-custom-switch.css";
 import "bootstrap.native";
 
 // Estilo de la página
